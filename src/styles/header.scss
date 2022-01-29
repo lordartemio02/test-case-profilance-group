@@ -1,0 +1,39 @@
+.header {
+  &-link {
+    background-color: #fff;
+    border: none;
+    font-size: 1.25rem;
+  }
+}
+.navbar {
+  display: flex;
+  &-brand {
+    display: flex;
+  }
+  &-end {
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+  }
+  &-item {
+    align-items: center;
+    display: flex;
+    line-height: 1.5;
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: black;
+  }
+}
+a.navbar-item:hover,
+.header-link:hover {
+  background-color: rgb(212, 212, 212);
+  color: #fff;
+  cursor: pointer;
+}
+a.navbar-item:focus {
+  background-color: transparent;
+  color: #4a4a4a;
+}
+.logo {
+  height: 100%;
+}

@@ -1,0 +1,31 @@
+.news{
+    &__search{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        &-input{
+            width: 300px;
+            margin: 1.5rem 0;
+        }
+        &-title{
+            margin-right: 10px;
+            font-size: 100%;
+            font-weight: 400;
+        }
+    }
+}
+.card{
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    color: #4a4a4a;
+    max-width: 100%;
+    position: relative;
+    &-content{
+        padding: 1.5rem;
+        p:not(:last-child){
+            margin-bottom: 1em;
+        }
+
+    }
+}
